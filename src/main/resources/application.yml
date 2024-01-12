@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: odilhon1985
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/oauth2
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 637015665928-dpks0ide2i2d9i5dp2ihpajr69ttmrad.apps.googleusercontent.com
+            client-secret: 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
+          github:
+            client-id: Iv1.8a141c4f80337bdd
+            client-secret: 6d331dbfed0b33868ceaf1a638955b281ea6802f
